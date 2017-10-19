@@ -3,7 +3,12 @@
 	src: url("font/Majoram.otf");
 }
 
-/*
 * {
- 	border: 1px solid red;
-}*/
+	padding: 0;
+	margin: 0;
+ 	/*border: 1px solid red;*/
+}
+
+html,body {
+	height: 100%;
+}
