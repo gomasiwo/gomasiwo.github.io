@@ -1,5 +1,5 @@
 $ (function(){
-	var time = 400;
+	var time = 200;
 	$("a#arrdwn").hover(function(){
 		$(this).animate({opacity: 0.25}, time, 'easeOutQuad');
 	},function(){
@@ -8,7 +8,7 @@ $ (function(){
 });
 
 $(function(){
-	var time = 800;
+	var time =800;
 			
 	$('a[href^=#]').click(function(){
 		var target = $(this.hash);

@@ -1,12 +1,12 @@
-.pokita {
+/*.pokita {
 	position: fixed;
 	color: #fff;
-}
+}*/
 
 #nav {
 	position: fixed;
 	top: 0;
-	left: 73%;
+	right: 0;
 	z-index: 100;
 	text-align: center;
 	padding: 20px;
