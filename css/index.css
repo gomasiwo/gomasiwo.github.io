@@ -1,8 +1,27 @@
+#nav {
+	text-align: right;
+	padding: 20px;
+}
+
+#nav li{
+	display: inline;
+	margin: 0px 20px;
+}
+
+#nav li a{
+	font-size: 24px;
+	color: #ffffff;
+}
+
+#nav li a:hover {
+	opacity: 0.5;
+}
+
 .titles {
 	position: relative;
  	width: 100%;
 	height: 100%;
-	background-image: url(../images/getcolor.png);
+	background-image: url(../images/hero.JPG);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -21,19 +40,36 @@
 	color: #ffffff;
 }
 
-a#scroll {
+#scrollbutton {
+	margin: 100px 0px 0px 0px;;
+}
+
+.arrow {
+	font-size: 0.5em;
+}
+
+a#arrdwn {
+	color: #ffffff;
+}
+
+/*a#arrdwn:hover {
+	opacity: 0.5;
+}*/
+
+/*a#scroll {
 	position: relative;
 	color: #ffffff;
 	font-size: 32px;
 	border: 1px #ffffff solid;
 	border-radius: 10px;
+	margin: 100px 0px;
 	padding: 10px;
 }
 
 a#scroll:hover {
 	color: #3D3D3D;
 	border: 1px #3D3D3D solid;
-}
+}*/
 
 .contents {
 	position: relative;
@@ -52,13 +88,14 @@ a#scroll:hover {
 	font-size: 40px;
 }
 
-#description h1 {
+#description h2 {
 	font-weight: lighter;
 }
 
 @media (max-width: 750px){
 	.titles {
 		height: 50%;
-		background-attachment: fixed
+		background-position: 50% 0%;
+		background-attachment: fixed;
 	}
 }

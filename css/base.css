@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'majoram';
-	src: url("font/Majoram.otf") format("opentype");
+	font-family: majoram;
+	src: url("font/Majoram.otf");
 }
 
 * {
