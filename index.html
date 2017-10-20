@@ -19,7 +19,7 @@
 				if(!target.length) return;
 				
 				var targetY = target.offset().top
-				$('html,body').animate({scrollTop: targetY}, time, 'easeOutQuint');
+				$('html,body').animate({scrollTop: targetY}, time, 'easeOutQuad');
 				window.history.pushState(null,null,null,this.hash);
 				return false;
 			})
@@ -30,7 +30,7 @@
 			<div id="title">
 				<p>GOMASHIWO</p>
 				<div id="scrollbutton">
-				<a href="#cont2" id="scroll">scroll</a>
+				<a href="#cont" id="scroll">scroll</a>
 			</div>
 			</div>
 		</div>

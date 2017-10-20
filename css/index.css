@@ -3,6 +3,7 @@
  	width: 100%;
 	height: 100%;
 	background-image: url(../images/getcolor.png);
+	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -53,4 +54,11 @@ a#scroll:hover {
 
 #description h1 {
 	font-weight: lighter;
+}
+
+@media (max-width: 750px){
+	.titles {
+		height: 50%;
+		background-attachment: fixed
+	}
 }
