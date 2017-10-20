@@ -8,13 +8,9 @@
 	background-size: cover;
 }
 
-#title{
+#title {
 	position: absolute;
-<<<<<<< HEAD
 	font-family: 'Montserrat', sans-serif;
-=======
-	font-family: 'majoram',serif;
->>>>>>> 7ad19e9686b0d583f136e9323390c9ecf6fbcf97
 	top: 38%;
 	bottom: 50%;
 	left: 0;
