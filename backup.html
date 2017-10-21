@@ -27,13 +27,17 @@
 		<script type="text/javascript" src="js/index.js"></script>
 	</head>
 	<body>
-		<ul id="nav">
-			<li data-menuanchor="home"><a href="#home">HOME</a></li>
-			<li data-menuanchor="about"><a href="#about">ABOUT</a></li>
-			<li data-menuanchor="gallery"><a href="#gallery">GALLERY</a></li>
-		</ul>
-		<div id="fullpage">
-			<div class="section" id="sc_home">
+		<nav id="nav">
+				<ul>
+					<li><a href="#home">HOME</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#gallery">GALLERY</a></li>
+				</ul>
+		</nav>
+		<main id="fullpage">
+		<div id="home">
+				<!--<p class="pokita">ページトップから<span id="target"></span>px離れています。</p>-->
+			<div class="section">
 				<div id="title">
 					<p>GOMASHIWO</p>
 					<div id="scrollbutton">
@@ -42,18 +46,20 @@
 					</div>
 				</div>
 			</div>
-			<div class="section" id="sc_about">
+		</div>
+		<div class="section">
+			<div class="contents" id="about">
 				<div id="description">
-				<h2>ABOUT</h2>
-				<p>本文テスト本文テスト本文テスト本文テスト本文テスト本文テスト</p>
+					<h2>ABOUT</h2>
+					<p>本文テスト本文テスト本文テスト本文テスト本文テスト本文テスト</p>
 				</div>
 			</div>
-			<div class="section" id="sc_gallery">
-				<div class="slide"><img src="images/gallery01.JPG" width="1920" height="1080"></div>
-				<div class="slide"><img src="images/gallery02.JPG" width="1920" height="1080"></div>
-				<div class="slide"><img src="images/gallery03.JPG" width="1920" height="1080"></div>
-			</div>
-			<div class="section" id="section3"></div>
 		</div>
+		<div class="section">
+			<div class="contents" id="gallery">
+				<p>peeeeeeeeeeeeeeee</p>
+			</div>
+		</div>
+			</main>
 	</body>
 </html>

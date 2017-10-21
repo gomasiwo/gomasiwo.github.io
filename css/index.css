@@ -1,7 +1,32 @@
+#sc_home {
+	background-image: url(../images/hero.JPG);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#sc_about {
+	background: #fff;
+}
+
+#sc_gallery {
+	background: #fff;
+}
+
+#sc_gallery img{
+	text-align: center;
+	object-fit: cover;
+}
+
+#section3 {
+	background: #f4f356;
+}
+
 /*.pokita {
 	position: fixed;
 	color: #fff;
-}*/
+}
+*/
 
 #nav {
 	position: fixed;
@@ -18,7 +43,7 @@
 }
 
 #nav li a{
-	font-size: 24px;
+	font-size: 28px;
 	color: #ffffff;
 }
 
@@ -26,6 +51,7 @@
 	opacity: 0.5;
 }
 
+/*
 #home {
 	position: relative;
  	width: 100%;
@@ -36,6 +62,7 @@
 	background-attachment: fixed;
 	background-size: cover;
 }
+*/
 
 #title {
 	position: absolute;
@@ -49,6 +76,7 @@
 	color: #ffffff;
 }
 
+
 #scrollbutton {
 	margin: 100px 0px 0px 0px;;
 }
@@ -57,9 +85,11 @@ a#arrdwn {
 	color: #ffffff;
 }
 
-/*a#arrdwn:hover {
+/*
+a#arrdwn:hover {
 	opacity: 0.5;
-}*/
+}
+*/
 
 /*a#scroll {
 	position: relative;
@@ -74,14 +104,16 @@ a#arrdwn {
 a#scroll:hover {
 	color: #3D3D3D;
 	border: 1px #3D3D3D solid;
-}*/
+}
 
 .contents {
 	position: relative;
 	height: 100%;
 }
+*/
 
 #description {
+	opacity: 0;
 	color: #353535;
 	position: absolute;
 	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;

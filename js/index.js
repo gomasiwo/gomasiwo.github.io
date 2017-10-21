@@ -1,3 +1,23 @@
+$(document).ready(function(){
+	$('#fullpage').fullpage({
+		anchors: ['home', 'about', 'gallery'],
+		menu: '#menu',
+		css3: true,
+		keyboardScrolling: true,
+		easing: 'swing',
+		onLeave: function(index, nextIndex, direction){
+			if(nextIndex == 1){
+				$('#nav li a').css('color','#fff');
+			}else{
+				$('#nav li a').css('color','#353535');				
+			}
+			if(index == 1){
+				$('#description').animate({opacity: 1}, 2500, 'easeInOutCubic');
+			}
+		}
+	});
+});
+
 $ (function(){
 	var time = 200;
 	$("a#arrdwn").hover(function(){
@@ -7,6 +27,7 @@ $ (function(){
 	});
 });
 
+/*
 $(function(){
 	var time =800;
 			
@@ -31,6 +52,7 @@ $(function(){
 		}
 	});
 });
+*/
 
 /*
 $(function(){// 変数『obj_t_pos』に位置を代入
