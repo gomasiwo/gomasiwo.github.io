@@ -6,10 +6,10 @@ $(document).ready(function(){
 		keyboardScrolling: true,
 		easing: 'swing',
 		onLeave: function(index, nextIndex, direction){
-			if(nextIndex == 1){
-				$('#nav li a').css('color','#fff');
+			if(nextIndex == 2 || nextIndex == 3){
+				$('#nav li a').css('color','#353535');
 			}else{
-				$('#nav li a').css('color','#353535');				
+				$('#nav li a').css('color','#fff');				
 			}
 			if(index == 1){
 				$('#description').animate({opacity: 1}, 2500, 'easeInOutCubic');
