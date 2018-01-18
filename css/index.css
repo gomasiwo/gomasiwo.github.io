@@ -1,74 +1,74 @@
 #sc_home {
-	background-image: url(../images/hero.JPG);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+    background-image: url(../images/hero.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #sc_about {
-	background: #fff;
+    background: #fff;
 }
 
 #sc_gallery {
-	background: #fff;
+    background: #fff;
 }
 
-#sc_gallery h2{
-	color: #353535;
-	position: absolute;
-	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-	font-weight: lighter;
-	top: 8%;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	text-align: center;
-	font-size: 30px;
+#sc_gallery h2 {
+    color: #353535;
+    position: absolute;
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    font-weight: lighter;
+    top: 8%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 30px;
 }
 
-#sc_gallery img{
-	width: auto;
-	height: 85%;
-	margin: 120px 0 0 0;
-	object-fit: cover;
+#sc_gallery img {
+    width: auto;
+    height: 85%;
+    margin: 120px 0 0 0;
+    object-fit: cover;
 }
 
 #section3 {
-	background: #fff;
+    background: #fff;
 }
 
 #nav {
-	position: fixed;
-	top: 0;
-	right: 0;
-	z-index: 100;
-	text-align: center;
-	padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    text-align: center;
+    padding: 20px;
 }
 
-#nav li{
-	display: inline;
-	margin: 0px 30px;
+#nav li {
+    display: inline;
+    margin: 0px 30px;
 }
 
-#nav li a{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 28px;
-	color: #ffffff;
+#nav li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    color: #ffffff;
 }
 
 #nav li a:hover {
-	opacity: 0.5;
+    opacity: 0.5;
 }
 
 .gallerysli {
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 .section {
-	position: relative;
-	text-align:center;
-	vertical-align: bottom;
+    position: relative;
+    text-align: center;
+    vertical-align: bottom;
 }
 
 /*
@@ -85,24 +85,25 @@
 */
 
 #title {
-	position: absolute;
-	font-family: 'Montserrat', sans-serif;
-	top: 45%;
-	bottom: 50%;
-	left: 0;
-	right: 0;
-	text-align: center;
-	font-size: 90px;
-	color: #ffffff;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    top: 45%;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 90px;
+    color: #ffffff;
 }
 
 
 #scrollbutton {
-	margin: 100px 0px 0px 0px;;
+    margin: 100px 0px 0px 0px;
+    ;
 }
 
 a#arrdwn {
-	color: #ffffff;
+    color: #ffffff;
 }
 
 /*
@@ -133,49 +134,49 @@ a#scroll:hover {
 */
 
 #description {
-	opacity: 0;
-	color: #353535;
-	position: absolute;
-	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-	top: 40%;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	text-align: center;
-	vertical-align: middle;
-	font-size: 40px;
+    opacity: 0;
+    color: #353535;
+    position: absolute;
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    top: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
 }
 
 #description h2 {
-	font-weight: lighter;
+    font-weight: lighter;
 }
 
-@media (max-width: 750px){
-	#nav {
-		padding: 10px;
-	}
-	
-	#nav li {
-		margin: 0px 5px;
-	}
-	
-	#nav li a{
-	font-size: 18px;
-	}
-	
-	#title {
-		font-size: 45px;
-	}
-	
-	#description {
-		font-size: 20px;
-	}
-	
-	.fp-controlArrow.fp-prev {
-		opacity: 0.5;
-	}
-	
-	.fp-controlArrow.fp-next {
-		opacity: 0.5;
-	}
+@media (max-width: 750px) {
+    #nav {
+        padding: 10px;
+    }
+
+    #nav li {
+        margin: 0px 5px;
+    }
+
+    #nav li a {
+        font-size: 18px;
+    }
+
+    #title {
+        font-size: 45px;
+    }
+
+    #description {
+        font-size: 20px;
+    }
+
+    .fp-controlArrow.fp-prev {
+        opacity: 0.5;
+    }
+
+    .fp-controlArrow.fp-next {
+        opacity: 0.5;
+    }
 }
