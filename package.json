@@ -2,7 +2,7 @@
     "name": "gomasiwo.github.io",
     "version": "1.0.0",
     "description": "gomashiwonotestpage",
-    "main": "./src/js/index.js",
+    "main": "./src/js/index1.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -17,6 +17,7 @@
     },
     "homepage": "https://github.com/gomasiwo/gomasiwo.github.io#readme",
     "devDependencies": {
-        "jquery": "^3.2.1"
+        "jquery": "^3.2.1",
+        "webpack": "^3.10.0"
     }
 }
