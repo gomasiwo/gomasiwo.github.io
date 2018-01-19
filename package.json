@@ -4,6 +4,8 @@
     "description": "gomashiwonotestpage",
     "main": "./src/js/index1.js",
     "scripts": {
+        "start": "webpack-dev-server --inline",
+        "build": "webpack",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -18,6 +20,7 @@
     "homepage": "https://github.com/gomasiwo/gomasiwo.github.io#readme",
     "devDependencies": {
         "jquery": "^3.2.1",
-        "webpack": "^3.10.0"
+        "webpack": "^3.10.0",
+        "webpack-dev-server": "^2.11.0"
     }
 }
