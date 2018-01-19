@@ -1,0 +1,13 @@
+$bc1:lightgray;
+$bc2:red;
+
+div {
+    background-color: $bc2;
+    margin: 0 auto;
+    p {
+        padding: 0 0 0 10px;
+        span {
+            font-size: 2em;
+        }
+    }
+}

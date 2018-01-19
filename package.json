@@ -1,0 +1,19 @@
+{
+    "name": "gomasiwo.github.io",
+    "version": "1.0.0",
+    "description": "gomashiwonotestpage",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gomasiwo/gomasiwo.github.io.git"
+    },
+    "author": "gomashiwo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gomasiwo/gomasiwo.github.io/issues"
+    },
+    "homepage": "https://github.com/gomasiwo/gomasiwo.github.io#readme"
+}
