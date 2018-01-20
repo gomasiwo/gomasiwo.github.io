@@ -1,0 +1,21 @@
+@font-face {
+	font-family: majoram;
+	src: url("font/Majoram.otf");
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+ 	/*border: 1px solid red;*/
+}
+
+
+html,body {
+	height: 100%;
+}
+
+
+a {
+	text-decoration: none;
+}

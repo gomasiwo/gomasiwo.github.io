@@ -1,0 +1,7 @@
+$main_width: 100vmin;
+$main_height: (main_width / $sqrt2);
+
+#main {
+    width: $main_width;
+    height: $main_height;
+}

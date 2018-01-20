@@ -19,6 +19,7 @@
     },
     "homepage": "https://github.com/gomasiwo/gomasiwo.github.io#readme",
     "devDependencies": {
+        "chaffle": "^2.0.0",
         "jquery": "^3.2.1",
         "webpack": "^3.10.0",
         "webpack-dev-server": "^2.11.0"
