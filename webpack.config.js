@@ -21,11 +21,11 @@ module.exports = {
         ]
     },
     plugins: [
-        /*new webpack.optimize.UglifyJsPlugin({
+        new webpack.optimize.UglifyJsPlugin({
             output: {
                 comments: false
             }
-        }),*/
+        }),
         //new ExtractTextPlugin("index.css")
     ]
 };
