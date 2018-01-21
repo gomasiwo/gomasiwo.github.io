@@ -26,6 +26,6 @@ module.exports = {
                 comments: false
             }
         }),
-        //new ExtractTextPlugin("index.css")
+        new ExtractTextPlugin("index.css")
     ]
 };

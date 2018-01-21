@@ -1,0 +1,14 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #3c3c3c;
+    &:hover {
+        color: #3c3c3c;
+    }
+    &:visited {
+        color: #3c3c3c;
+    }
+}
