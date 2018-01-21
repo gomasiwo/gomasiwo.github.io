@@ -3,6 +3,7 @@
 @import "./loading.scss";
 
 $menu-togglewidth: 10vw;
+$toggle-height: 28px;
 
 html,
 body {
@@ -33,7 +34,7 @@ body {
     }
     .toggle {
         width: 36px;
-        height: 28px;
+        height: $toggle-height;
         margin-right: 10px;
         position: relative;
         cursor: pointer;
@@ -96,6 +97,12 @@ body {
 
 @media screen and (max-width:768px) {
     #header {
+        width: auto;
+        height: $toggle-height + 20px;
+        .maintitle{
+            margin: auto auto;
+            font-size: 25px;
+        }
         .toggle {
             span {
                 display: inline-block;
