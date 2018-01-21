@@ -20,7 +20,10 @@ body {
 }
 
 #header {
+    display: -webkit-flex;
     display: flex;
+    -ms-justify-content: center;
+    -ms-align-items: center;
     justify-content: center;
     align-items: center;
     .maintitle {
@@ -53,12 +56,14 @@ body {
             }
         }
         &.on span:nth-of-type(1) {
+            -webkit-transform: translateY(12px) rotate(-45deg);
             transform: translateY(12px) rotate(-45deg);
         }
         &.on span:nth-of-type(2) {
             display: none;
         }
         &.on span:nth-of-type(3) {
+            -webkit-transform: translateY(-12px) rotate(45deg);
             transform: translateY(-12px) rotate(45deg)
         }
     }
