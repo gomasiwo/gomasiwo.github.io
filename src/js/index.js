@@ -50,7 +50,7 @@ $(function () {
     $(window).resize(function () {
         var w = $(window).width();
         var h = $(window).height();
-        var x = 700;
+        var x = 768;
         if (w >= x) {
             $('nav ul').css({
                 display: 'flex',
